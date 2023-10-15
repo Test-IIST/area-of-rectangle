@@ -1,28 +1,30 @@
-Objective:
+## Problem Statement
 
-The goal of this assignment is to create a Python program that prompts the user for the length and width of a rectangle and then calculates and prints its area.
+**Problem:**
 
-Instructions:
+You are tasked with creating a Python program that calculates the area of a rectangle based on the given length and width.
 
-Write a Python program that does the following:
+You have been given the length and width of a rectangle as parameters and now print the area of the rectangle
 
-Prompt the user to enter the length and width of a rectangle.
-Display the calculated area to the user.
-Ensure that the program can handle edge cases, such as when the user provides non-numeric input.
+### Input:
 
-Input Constraints:
+- `length`: A number representing the length of the rectangle where length is greater than or equal to 1
+- `width`: A number representing the width of the rectangle where width is greater than or equal to 1
 
-The length and width should be positive numbers.
-The program should handle invalid inputs, such as negative numbers or non-numeric input.
+### Output:
 
-Example:
+- print the area of the rectangle calculated as length times width
+
+### Example:
+
 ```python
-Input1: Length = 5, Width = 3
-Expected Output1: "The area of the rectangle is 15 square units.
+length = 5.2
+width = 3.8
 
-Input2: Length = -2, Width = 6
-Expected Output2: "Invalid input. Please provide positive numbers.
+Output: 19.76
 
-Input3: Length = 7, Width = "abc"
-Expected Output3: "Invalid input. Please provide numeric values for length and width.
-```
+Explanation:
+
+In the given example, the length of the rectangle is 5.2 units and the width is 3.8 units. The area of the rectangle is calculated as 
+
+5.2 × 3.8 = 19.76.
