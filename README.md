@@ -4,16 +4,16 @@ The goal of this assignment is to create a Python program that prompts the user 
 
 Instructions:
 
-Write a Python program that does the following:
-
-Prompt the user to enter the length and width of a rectangle.
-Display the calculated area to the user.
-Ensure that the program can handle edge cases, such as when the user provides non-numeric input.
+    Write a Python program that does the following:
+    
+    Prompt the user to enter the length and width of a rectangle.
+    Display the calculated area to the user.
+    Ensure that the program can handle edge cases, such as when the user provides non-numeric input.
 
 Input Constraints:
-
-The length and width should be positive numbers.
-The program should handle invalid inputs, such as negative numbers or non-numeric input.
+    
+    The length and width should be positive numbers.
+    The program should handle invalid inputs, such as negative numbers or non-numeric input.
 
 Example:
 ```python
